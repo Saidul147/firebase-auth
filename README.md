@@ -29,4 +29,4 @@ export const auth = getAuth(app);
 //Go to Firebase Console  > Open your project: redux-thunk-taskmaster > Click the gear icon ⚙️ in the left sidebar → Project settings >Scroll down to Your apps section
 //==========you will find the code first install the firebase if it didnt installed, and then copy the code and paste avobe:
 //4.And you have to obiviously enable the google, and also which provider do you want to add. Either enable it you will not able to signin with google,
-///----and rest of this into the code------look how 
+///----and rest of this into the code------look avobe and also added the image of step into google doc
