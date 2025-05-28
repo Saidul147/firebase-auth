@@ -57,3 +57,13 @@ function Login() {
 }
 
 export default Login
+
+//think two login button, one = handleGoogle, and another is = create account.
+//1.first call the googleProvider =>  const googleProvider = new GoogleAuthProvider()
+ //  create a function for a google login,like handleGoogle or your wish. and then important thing is  
+// inside the handlerFunction, call the  signInWithPopup(auth, googleProvider) //auth which is exported from firebase js, and google provider from avobe.
+      // .then((result) => {
+      //   navigate('/home')
+      // })
+//==========every type of function like signinWithPopUp,createUserWithEmailAndPassword(auth, email, password)
+// to find this go to firebase.com docs > build > web > get started.
